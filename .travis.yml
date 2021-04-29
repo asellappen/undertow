@@ -1,0 +1,21 @@
+# ----------------------------------------------------------------------------
+#
+# Package             : undertow
+# Source Repo         : https://github.com/undertow-io/undertow
+# Travis Job Link     : https://travis-ci.com/github/asellappen/undertow/
+# Created travis.yml  : No
+# Maintainer          : Arumugam N S <asellappen@yahoo.com> / Priya Seth<sethp@us.ibm.com>
+#
+# Script License      : Apache License, Version 2 or later
+#
+# ----------------------------------------------------------------------------
+language: java
+arch:
+    - amd64
+    - ppc64le
+
+dist: bionic
+
+jdk:
+  - openjdk8
+  - openjdk11
